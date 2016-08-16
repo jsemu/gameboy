@@ -1,0 +1,30 @@
+#memory {
+  display: inline-block;
+  height: 500px;
+  overflow-y: scroll;
+
+  font-family: monospace;
+
+  .pc {
+    background: red;
+  }
+
+  div {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+
+    &:nth-child(2n) {
+      background: rgb(200, 200, 200);
+    }
+
+    div {
+      display: inline-block;
+      width: 50px;
+    }
+
+    span {
+      margin-left: 10px;
+    }
+  }
+}
